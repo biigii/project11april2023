@@ -1,0 +1,18 @@
+@use './variables' as v;
+
+h1 {
+  font: {
+    size: 3em;
+    family: v.$font;
+    weight: 100;
+  }
+  color: v.$black;
+  text: {
+    align: center;
+    transform: uppercase;;
+  }
+}
+
+h1 {
+  margin-bottom: 100px;
+}
