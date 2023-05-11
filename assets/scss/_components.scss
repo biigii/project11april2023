@@ -58,3 +58,26 @@ header {
     text-align: center;
   }
 }
+
+table {
+  // border-collapse: separate;
+  // border-spacing: 20px;
+  border-collapse: collapse;
+  text-transform: capitalize;
+  width: 400px;
+  margin: 0 auto;
+  caption {
+    font: {
+      size: 1.5em;
+      weight: 100 
+    }
+  } 
+  th, td {
+    border: 2px solid;
+    padding: 10px;
+  }
+
+  thead {
+    background-color: v.$white;
+  }
+}

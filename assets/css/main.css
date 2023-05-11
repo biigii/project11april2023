@@ -132,6 +132,24 @@ header ul li a:hover {
   text-align: center;
 }
 
+table {
+  border-collapse: collapse;
+  text-transform: capitalize;
+  width: 400px;
+  margin: 0 auto;
+}
+table caption {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+table th, table td {
+  border: 2px solid;
+  padding: 10px;
+}
+table thead {
+  background-color: #f1e9e9;
+}
+
 h1 {
   font-size: 3em;
   font-family: "Roboto", sans-serif;
